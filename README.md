@@ -2,6 +2,8 @@
 
 Let's learn git!
 
+学习提示：不会就问ai
+
 * 任务1：署名
 
 1. 给github账户添加ssh key：由于github的最新规定，给项目推送提交现在推荐ssh认证，步骤如下：[本地生成ssh key](https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)，[将生成的ssh key添加到github](https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)。
@@ -37,9 +39,10 @@ Let's learn git!
 
    ```bash
    git branch "分支名" <commit-hash>
+   git switch "分支名"
    git push
    ```
-9. 创建pull request (pr)
+9. 创建pull request (pr)：进入github切换到自己开的分支，github 会提示你最近有提交被push了，提示你创建pull request，填写标题和描述即可
 
 ---
 
